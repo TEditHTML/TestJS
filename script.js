@@ -15,4 +15,4 @@ let numberOfFilms = +prompt("Сколько фильмов Вы уже посм�
 personalMovieDB.movies[lastFilm_1] = rangLastFilm_1;
 personalMovieDB.movies[lastFilm_2] = rangLastFilm_2;
 
-console.log(personalMovieDB.movies);
+console.log(personalMovieDB);
