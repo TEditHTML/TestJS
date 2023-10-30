@@ -10,3 +10,4 @@ let x = [];
     console.log(x);
     console.log(x.length);
     console.log("Hello");
+    console.log("Hello");
