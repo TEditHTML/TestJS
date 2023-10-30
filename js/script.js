@@ -9,7 +9,4 @@ let x = [];
     x[1] = 20;
     console.log(x);
     console.log(x.length);
-    console.log("Hello world");
-    console.log("Hello world");
-    console.log("Hello world");
-    console.log("Hello world");
+    console.log("Hello");
