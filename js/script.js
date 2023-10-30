@@ -11,3 +11,5 @@ let x = [];
     console.log(x.length);
     console.log("Hello world");
     console.log("Hello world");
+    console.log("Hello world");
+    console.log("Hello world");
