@@ -1,13 +1,19 @@
-let x = [];
-    x["name"] = "Ted",
-    x["age"] = 36;
+let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", ""),
+    personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false,
+};
 
-    console.log(x);
-    console.log(x.length);
+let a = prompt("Один из последних просмотренных фильмов", ""),
+    b = prompt("Насколько оцените его?", ""),
+    c = prompt("Один из последних просмотренных фильмов", ""),
+    d = prompt("Насколько оцените его?", "");
 
-    x[0] = 10;
-    x[1] = 20;
-    console.log(x);
-    console.log(x.length);
-    console.log("Hello");
-    console.log("Hello");
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
+
